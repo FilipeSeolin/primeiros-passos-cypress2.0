@@ -14,7 +14,7 @@ class LoginPage {
     accessLoginPage() {
         cy.visit('/auth/login')
     }
-    loginWhithUser(username, password) {
+    loginWhithAnyUser(username, password) {
         cy.get(this.selectorsList().usernameField).type(username)
         cy.get(this.selectorsList().passwordField).type(password)
         cy.get(this.selectorsList().loginButton).click()

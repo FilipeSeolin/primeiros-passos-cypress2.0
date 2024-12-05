@@ -25,7 +25,7 @@ describe('Orange HRM Tests', () => {
     menuPage.accessMyInfo()
 
     myInfoPage.fillPersonalDetails(chance.first(), chance.letter({casing: 'upper'}), chance.last(), chance.string())
-    myInfoPage.fillEmployeeDetails('Employee', 'Other Id', 'Drivers Number', '2025-07-29', '321654', '456123')
+    myInfoPage.fillEmployeeDetails(chance.animal(), chance.word(), chance.ssn({ ssnFour: true }), '2025-07-29', chance.zip(), chance.prime())
     myInfoPage.fillStatus()
     myInfoPage.saveForm()
   })

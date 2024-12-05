@@ -8,7 +8,7 @@ class MyInfoPage {
             lastNameField: "[name='lastName']",
             genericField: ".oxd-input--active",
             dateField: "[placeholder='yyyy-dd-mm']",
-            secondItemCombobox: ".oxd-select-dropdown > :nth-child(142)",
+            secondItemCombobox: ".oxd-select-dropdown > :nth-child(141)",
             thirdItemCombobox: ".oxd-select-dropdown > :nth-child(3)",
             forthItemCombobox: ".oxd-select-dropdown > :nth-child(1)",
             submitButton: "[type='submit']",
